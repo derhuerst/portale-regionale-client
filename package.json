@@ -1,0 +1,35 @@
+{
+	"name": "portale-regionale-client",
+	"description": "Client for the Portale Regional onboard Italian trains.",
+	"version": "1.0.0",
+	"main": "index.js",
+	"files": [
+		"index.js",
+		"example.js"
+	],
+	"keywords": [
+		"public transport",
+		"transit",
+		"wifi"
+	],
+	"author": "Jannis R <mail@jannisr.de>",
+	"homepage": "https://github.com/derhuerst/portale-regionale-client",
+	"repository": "derhuerst/portale-regionale-client",
+	"bugs": "https://github.com/derhuerst/portale-regionale-client/issues",
+	"license": "ISC",
+	"engines": {
+		"node": ">=16"
+	},
+	"dependencies": {
+		"fetch-ponyfill": "^6.1.1",
+		"pinkie-promise": "^2.0.1"
+	},
+	"devDependencies": {
+		"eslint": "^8.0.0"
+	},
+	"scripts": {
+		"test": "node test.js",
+		"lint": "eslint .",
+		"prepublishOnly": "npm run lint && npm test"
+	}
+}
