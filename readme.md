@@ -19,6 +19,12 @@ npm install portale-regionale-client
 ## Usage
 
 ```js
+const {fetchTripStatus} = require('portale-regionale-client')
+
+await fetchTripStatus()
+```
+
+```js
 // todo
 ```
 
