@@ -25,7 +25,92 @@ await fetchTripStatus()
 ```
 
 ```js
-// todo
+{
+	datetime: '2022-29-04T12:50:18+0200',
+	nextStation: 'TERMINI IMERESE',
+	infos: {
+		categoriaCommerciale: 'REGIO_FAST',
+		trackNumber: '5359',
+		trackTitle: 'MESSINA CENT. - PALERMO C.LE',
+		speed: 160,
+		delay: 1,
+		// …
+	},
+	routepercent: 35,
+	// …
+	stopovers: [
+		{
+			index: 0,
+			progressFromPrevious: 100,
+			stop: {
+				type: 'stop',
+				id: 'messina-cent',
+				name: 'MESSINA CENT.',
+				location: null,
+			},
+			arrival: null,
+			actualArrival: null,
+			plannedArrival: null,
+			arrivalDelay: null,
+			arrivalPlatform: null,
+			departure: '2022-04-29T10:43:30',
+			actualDeparture: '2022-04-29T10:43:30',
+			plannedDeparture: '2022-04-29T10:43:00',
+			departureDelay: 1,
+			departurePlatform: null,
+		},
+		// …
+		{
+			index: 7,
+			progressFromPrevious: 35,
+			stop: {
+				type: 'stop',
+				id: 'cefalu',
+				name: 'Cefalu`',
+				location: null,
+			},
+			arrival: '2022-04-29T12:43:00',
+			actualArrival: '2022-04-29T12:43:00',
+			plannedArrival: '2022-04-29T12:41:00',
+			// …
+		},
+		// …
+		{
+			index: 9,
+			progressFromPrevious: 0,
+			stop: {
+				type: 'stop',
+				id: 'palermo-c-le',
+				name: 'PALERMO C.LE',
+				location: null
+			},
+			arrival: '2022-04-29T13:32:00',
+			actualArrival: null,
+			plannedArrival: '2022-04-29T13:32:00',
+			// …
+		},
+	],
+	upcomingStopover: {
+		index: 7,
+		progressFromPrevious: 35,
+		stop: {
+			type: 'stop',
+			id: 'cefalu',
+			name: 'Cefalu`',
+			location: null,
+		},
+		arrival: '2022-04-29T12:43:00',
+		actualArrival: '2022-04-29T12:43:00',
+		plannedArrival: '2022-04-29T12:41:00',
+		arrivalDelay: 2,
+		arrivalPlatform: null,
+		departure: '2022-04-29T12:45:00',
+		actualDeparture: '2022-04-29T12:45:00',
+		plannedDeparture: '2022-04-29T12:42:00',
+		departureDelay: 3,
+		departurePlatform: null,
+	},
+}
 ```
 
 ## Related
