@@ -119,6 +119,8 @@ await fetchTripStatus()
 - [`wifi-on-ice-portal-client`](https://github.com/derhuerst/wifi-on-ice-portal-client) – Query information from the WifiOnICE portal in German ICE trains.
 - [`digital-im-regio-portal-client`](https://github.com/derhuerst/digital-im-regio-portal-client) – Query information from the Digital im Regio portal in German Regio trains.
 - [`cd-wifi-client`](https://github.com/derhuerst/cd-wifi-client) – A client for the onboard WiFi portal of České dráhy (Czech Railways) trains.
+- [`live-icomera-position`](htttps://github.com/derhuerst/live-icomera-position) – Live vehicle geolocation, taken from the on-board Icomera WiFi system.
+- [`live-gomedia-position`](htttps://github.com/derhuerst/live-gomedia-position) – Live vehicle geolocation, taken from the GoMedia on-board WiFi entertainment system.
 
 
 ## Contributing
